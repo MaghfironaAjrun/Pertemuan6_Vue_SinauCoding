@@ -1,0 +1,67 @@
+body {
+  text-align: center;
+}
+
+.div-1 {
+  background:  #ffa07a url(./asset/html-logo.png)  left repeat-y;
+  background-size: 230px;
+  margin-left: 100px;
+  margin-right: 100px;
+ 
+}
+
+.div-2 {
+  background:  #add8e6 url(./asset/css-logo.png) right repeat-y;
+  background-size: 260px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.div-3 {
+  background:  #fafad2 url(./asset/js-logo.png)  left repeat-y;
+  background-size: 230px;
+  margin-left: 100px;
+  margin-right: 100px;
+ 
+}
+
+
+.img-html {
+  width: 170px;
+  margin-top: 10px;
+}
+
+.img-css {
+  width: 180px;
+  margin-top: 10px;
+}
+
+.img-javascript {
+  width: 170px;
+  margin-top: 10px;
+}
+
+.html-text {
+  font: 900 32px/1px "poppins", sans-serif;
+  color: #ff4500;
+}
+
+.css-text {
+  font: 900 32px/1px "poppins", sans-serif;
+  color: #3b84fa;
+}
+
+.javascript-text {
+  font: 900 32px/1px "poppins", sans-serif;
+  color: #e4d47b;
+}
+
+p {
+  font: normal 14px "Noto sans", sans-serif
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 900;
+}
