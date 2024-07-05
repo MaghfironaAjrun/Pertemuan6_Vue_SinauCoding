@@ -1,48 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  <title>Layouting CSS</title>
-</head>
-<body>
-  <div class="container">
-    <div class="left-section">
-      <h1>Welcome to Twitter</h1>
-      <p>Happening now, join twitter today</p>
-      <div class="image-container">
-        <img src="./asset/Ilustrator.svg" alt="Ilustrator">
-      </div>
-      <footer>&copy; 2022 Twitter, Inc.</footer>
-    </div>
-    <div class="right-section">
-      <div class="login-container">
-        <img src="./asset/Logo Twitter.svg" alt="Twitter-logo" class="twitter-logo">
-        <p class="sign-up">Don't have an account ? <a href="#" target="_blank">Sign Up</a></p>
-        <h2>Log in to Twitter</h2>
-        <form action="#">
-          <p>Enter Twitter Account</p>
-          <label for="email-username-phone">
-            <input type="text" id="email-username-phone" placeholder="Phone,email or username" required>
-          </label>
-          <br>
-          <label for="enter-password">
-            <input type="password" id="enter-password" placeholder="Password" required>
-          </label>
-           <a href="#" class="forgot-password">Forgot password ?</a>
-           <button type="submit" class="sign-in">Sign in</button>
-        </form>
-        <p class="or-teks">or</p>
-        <div class="alternative-login">
-          <button class="google"><img src="./asset/Logo Google.svg" alt="google-logo"> Sign in with Google</button>
-          <button class="apple"><img src="/asset/Logo Apple.svg" alt="apple-logo">Sign in with Apple</button>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twitter Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div>
+          <h1>Welcome to Twitter</h1>
+          <p>Happening now, join Twitter today</p>
+          <img src="./asset/Ilustrator.svg" alt="Twitter Illustration" />
+          <footer>&copy; 2022 Twitter,Inc.</footer>
         </div>
-      </div>    
+      </div>
+      <div class="right">
+        <div class="login-box">
+          <div class="head">
+            <img src="./asset/Logo Twitter.svg" alt="twitter icon">
+            <p>Don't have an account? <a href="#" style="color: #1E9CF1; font-weight: bold;">Sign Up</a></p>
+          </div>
+          <h2>Log in to Twitter</h2>
+          <input type="text" placeholder="Phone, email or username" />
+          <input type="password" placeholder="Password" />
+          <a href="#" class="forgot-link">Forgot password?</a>
+          <button class="sign-button">Sign In</button>
+          <p>or</p>
+          <div class="alt-login">
+            <button class="google-button">
+              <img src="./asset/Logo Google.svg" alt="Google Logo" /> Sign in
+              with Google
+            </button>
+            <button class="apple-button">
+              <img src="./asset/Logo Apple.svg" alt="Apple Logo" /> Sign in with
+              Apple
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</body>
+  </body>
 </html>
