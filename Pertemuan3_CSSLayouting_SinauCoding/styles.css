@@ -1,162 +1,116 @@
 body {
   margin: 0;
-  font-family: "Montserrat",sans-serif;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-family: "Montserrat", sans-serif;
 }
-
 .container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80%;
-  width: 80%;
+  height: 100vh;
 }
-
-.left-section {
+.left, .right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
   background-color: #1E9CF1;
   color: white;
-  float: left;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  flex: 1;
-  padding: 50px;
+  text-align: center;
 }
-
-.left-section h1 {
-  margin-bottom: 0;
-  font-weight: bold;
-  font-size: 3em;
-}
-
-.left-section p {
-  margin-top: 0;
-  font-size: 20px;
+.left h1 {
   font-weight: bold;
 }
-
-.left-section footer {
-  font-size: 20px;
+.left img {
+  max-width: 70%;
+  height: auto;
 }
-
-.right-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
+.right {
+  background-color: #FFFFFF;
+  flex-direction: column;
 }
-
-.login-container {
+.right .login-box {
   width: 80%;
-  position: relative;
-  top: 70px;
-  left: 20px;
+  max-width: 400px;
+  text-align: center;
 }
 
-.twitter-logo {
-  float: left;
-  width: 5em;
-  margin-right: 150px;
-  position: relative;
-  bottom:150px;
-}
-
-.sign-up {
-  position: relative;
-  bottom: 150px;
-}
-
-.sign-up a {
-  font-weight: bold;
-  text-decoration: none;
-  color: #1E9CF1;
-}
-
-.login-container h2 {
-  font-size: 50px;
-  position: relative;
-  bottom: 100px;
-
-}
-
-form p {
-  color: #757575 ;
-  font-size: 25px;
-  position: relative;
-  bottom: 100px;
-}
-
-input {
-  display: block;
-  width: 500px;
-  height: 70px;
-  border: none;
-  background-color: #EEEEEE;
-  border-radius: 5px;
-  position: relative;
-  bottom: 100px;
-  font-size: 20px;
-}
-
-::placeholder {
-  padding-left: 10px;
-}
-
-.forgot-password {
-  display: block;
-  position: relative;
-  bottom: 70px;
-  left: 350px;
-}
-
-.sign-in {
-  width: 500px;
-  height: 70px;
-  border: none;
-  background-color: #1E9CF1;
-  color: white;
-  border-radius: 5px;
-  position: relative;
-  bottom: 40px;
-  cursor: pointer;
-  font-size: 20px;
-}
-
-.or-teks {
-  position: relative;
-  bottom: 20px;
-  left: 250px;
-}
-
-.google {
-  width: 250px;
-  height: 50px;
+.head {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  bottom: 80px;
   font-size: 15px;
-  font-weight: bold;
-  float: left;
 }
-
-.apple {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 250px;
-  height: 50px;
+.head img {
+  width: 50px;
+}
+.login-box h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.login-box input {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #EEEEEE;
+}
+.login-box button {
+  width: 110%;
+  padding: 10px;
   border: none;
   border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-box a {
+  margin: 10px 0;
+  color: #1DA1F2;
+  text-decoration: none;
+}
+.login-box .alt-login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 110%;
+}
+
+.forgot-link {
+  display: block;
+  position: relative;
+  left: 160px;
+}
+
+.login-box .alt-login button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.google-button {
+  background-color: #EEEEEE;
+}
+
+.apple-button {
   background-color: black;
   color: white;
-  cursor: pointer;
-  font-size: 15px;
   font-weight: bold;
+}
+
+.sign-button {
+  background-color: #1E9CF1;
+  color: white;
+  font-weight: bold;
+}
+.login-box .alt-login button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
 }
