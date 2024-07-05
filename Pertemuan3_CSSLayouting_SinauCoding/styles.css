@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+.left, .right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  background-color: #1E9CF1;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+}
+.left h1 {
+  font-weight: bold;
+}
+.left img {
+  max-width: 70%;
+  height: auto;
+}
+.right {
+  background-color: #FFFFFF;
+  flex-direction: column;
+}
+.right .login-box {
+  width: 80%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  position: relative;
+  bottom: 80px;
+  font-size: 15px;
+}
+.head img {
+  width: 50px;
+}
+.login-box h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.login-box input {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #EEEEEE;
+}
+.login-box button {
+  width: 110%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.login-box a {
+  margin: 10px 0;
+  color: #1DA1F2;
+  text-decoration: none;
+}
+.login-box .alt-login {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 110%;
+}
+
+.forgot-link {
+  display: block;
+  position: relative;
+  left: 160px;
+}
+
+.login-box .alt-login button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.google-button {
+  background-color: #EEEEEE;
+}
+
+.apple-button {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.sign-button {
+  background-color: #1E9CF1;
+  color: white;
+  font-weight: bold;
+}
+.login-box .alt-login button img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}

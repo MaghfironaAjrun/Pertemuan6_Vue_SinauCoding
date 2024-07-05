@@ -1,0 +1,28 @@
+body {
+  width: 100%;
+}
+
+.navbar-brand {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-style: italic;
+}
+
+.jumbotron {
+  padding: 6em;
+  background: url(asset/wave\ \(1\).png) no-repeat center center/cover;
+}
+
+.progress {
+  margin-bottom: 2em;
+}
+
+#about {
+  color: white;
+  background-color: rgb(198, 130, 85)
+}
+
+#projects {
+  background-color: rgb(204, 204, 247);
+  padding-top: 3em;
+}
